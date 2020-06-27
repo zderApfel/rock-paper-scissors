@@ -11,7 +11,7 @@
     background-color: #e3d991; 
     color: darkblue;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 /*Applies to all "boxes" found in the game, including menu, scoreboard, etc.*/
@@ -24,14 +24,36 @@
     box-shadow: 5px 10px 20px black;
 }
 
-/*Applies to all buttons that are found in game menus*/
+/*Applies to all buttons found on the website*/
 
-.menu-button{
+.button{
     color: darkblue;
     background-color: white;
     border-color: lightblue;
     border-width: 5px;
     border-style: outset;
+
+}
+
+/*Added button click animations for any button found on the website*/
+
+.button:hover{
+    background-color: red;
+    color: white;
+}
+
+.button:active{
+    background-color: white;
+    color: darkblue;
+    border-style: inset;
+}
+
+/*
+MAIN MENU STYLES
+
+Applies to buttons found in the main menu
+*/
+.main-menu-button{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -41,9 +63,9 @@
     width: 200px;
 }
 
-/*ID for the main menu of the game*/
+/*For the main menu of the game*/
 
-#main-menu {
+#main-menu-box {
     position: relative;
     height: 500px;
     width: 500px;
@@ -54,18 +76,5 @@
 
 #main-menu-button-container{
     margin-top: 20%;
-}
-
-/*Added button click animations*/
-
-.menu-button:hover{
-    background-color: red;
-    color: white;
-}
-
-.menu-button:active{
-    background-color: white;
-    color: darkblue;
-    border-style: inset;
 }
 
