@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <a href="index.html"><div class="button" id="exit-button">Return to Menu</div></a>
+        <div id="scoreboard" class="game-box"> <!--Box that shows the score of the human player and the AI opponen-->
+            <h1 class="box-title">Scoreboard:</h1>
+            <div id="human-score" style="padding-left: 5%; float: left">
+                <h3>You</h3>
+                <p style="text-align: center">--</p>
+            </div>
+            <div id="ai-score" style="padding-right: 5%; float: right;">
+                <h3>AI</h3>
+                <p style="text-align: center">--</p>
+            </div>
+        </div> <!--End of scoreboard box-->
+        <div id="battlefield" class="game-box"> <!--Box that shows the results of the human player's choice, and the AI's choice-->
+            <h1 class="box-title">The AI picked:</h1>
+            <p id="ai-choice">Placeholder</p>
+            <p id="result">Placeholder</p>
+        </div>
+        <div id="choice-box" class="game-box">
+            <div id="choice-button" class="button">Rock</div>
+            <div id="choice-button" class="button">Paper</div>
+            <div id="choice-button" class="button">Scissors</div>
+        </div>
+    </body>
+</html>

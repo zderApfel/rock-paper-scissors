@@ -1,21 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #38857e;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+    background-color: #38857e;
 }
 
 a {
     text-decoration: none;
-}
-
-/*Format for all box title text*/
-
-.box-title {
-    background-color: #e3d991; 
-    color: darkblue;
-    text-align: center;
-    margin-top: 15px;
 }
 
 /*Applies to all "boxes" found in the game, including menu, scoreboard, etc.*/
@@ -28,10 +22,22 @@ a {
     box-shadow: 5px 10px 20px black;
 }
 
+.box-title {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.box-subtitle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 /*Applies to all buttons found on the website*/
 
 .button{
-    color: darkblue;
     background-color: white;
     border-color: lightblue;
     border-width: 5px;
@@ -69,8 +75,9 @@ Applies to buttons found in the main menu
 
 /*For the main menu of the game*/
 
-#main-menu-box {
+#main-menu-box, #rules-box{
     position: relative;
+    color: darkblue;
     height: 500px;
     width: 500px;
     margin: auto;
@@ -82,3 +89,69 @@ Applies to buttons found in the main menu
     margin-top: 20%;
 }
 
+/*For the rules box*/
+
+#rules-box{
+    position: relative;
+}
+
+#rules-container{
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style-position: inside;
+}
+
+/*For the game screen*/
+
+#exit-button{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: auto;
+    text-align: center;
+    color: darkblue;
+}
+
+#scoreboard{
+    margin: auto;
+    height: 100px;
+    width: 300px;
+}
+
+#battlefield{
+    border-width: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    padding-bottom: 100px;
+}
+
+#ai-choice{
+    text-align: center;
+    color:darkblue;
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+#result{
+    text-align: center;
+    color:darkblue;
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+#choice-box{
+    margin: auto;
+    margin-top: 15px;
+    height: 100px;
+    width: 120px;
+    border-width: 10px;
+}
+
+#choice-button{
+    text-align: center;
+    margin: auto;
+    height: 24px;
+    width: 100px;
+}
