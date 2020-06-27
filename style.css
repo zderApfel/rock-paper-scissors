@@ -5,6 +5,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*Format for all box title text*/
 
 .box-title {
