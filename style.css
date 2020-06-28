@@ -102,7 +102,9 @@ Applies to buttons found in the main menu
     list-style-position: inside;
 }
 
-/*For the game screen*/
+/*
+GAME STYLES
+For the game screen*/
 
 #exit-button{
     width: 150px;
@@ -136,22 +138,24 @@ Applies to buttons found in the main menu
 
 #result{
     text-align: center;
-    color:darkblue;
+    color:red;
+    font-weight: bold;
     margin-top: 10%;
     font-size: 25px;
+    overflow: hidden;
 }
 
 #choice-box{
     margin: auto;
     margin-top: 15px;
-    height: 100px;
+    height: 82px;
     width: 120px;
     border-width: 10px;
+    overflow: hidden;
 }
 
-#choice-button{
-    text-align: center;
-    margin: auto;
-    height: 24px;
-    width: 100px;
+#start-over{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15px;    
 }
